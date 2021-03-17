@@ -1,10 +1,51 @@
 \documentclass{beamer}
 \usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
 \usepackage[labelformat = empty, labelsep = none]{caption}
 \usepackage{hyperref}
 
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
 \usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+%\usetheme{boxes}
+%\usetheme{default}
+%\usecolortheme{default}
+%\usecolortheme{albatross}
 \usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
 \hypersetup{colorlinks=true, linkcolor=blue, filecolor=magenta, urlcolor=cyan}
 \urlstyle{same}
 
@@ -61,7 +102,7 @@ I'm building a Newtonian reflector telescope and I'm making the main mirror lens
 
 It has a 200mm diameter main mirror and initially I planned for a focal length of 1200mm.
 
-Why these characteristics?
+Why these choices?
 \begin{itemize}
 \item For a certain telescope diameter (aperture), it is the least complicated type to make (only one convex main mirror lens and a small diagonal flat mirror).
 \item A 200mm main mirror with 1200mm focal lenght is one of the most common configurations. It is a compromise between portability and light collection capability.
@@ -84,22 +125,31 @@ Incoming light (red dashed line) comes from the top of the telescope, iluminates
 
 \begin{frame}
 \frametitle{Making the main mirror}
-For the main mirror you need a circular disc of some type of glass with a concave face on it.
+In a good mirror, its surface must not have any imperfections with more than $0.07 \mu m$ of deviation from the theoretical ideal surface [texereau].
+This ideal surface must be a paraboloid\footnotemark to correctly focus the light rays comming from very far away objects.
+\footnotetext{\url{https://en.wikipedia.org/wiki/Parabolic_reflector}}
 
-Simple, right?
+How does one make such smooth surface? It turns out it can be done with easily built hand tools and a simple set of steps:
 
-For an acceptale mirror, you will need a surface that needs to have at most $0.15 \mu m$ of deviation from the theoretical ideal surface. This ideal surface must be a paraboloid for correctly focus light rays comming from infinitly far away objects.
+\begin{itemize}
+\item \textit{Rough grinding}. Generates a first approximation of the optical surface. Results in a rough surface.
+\item \textit{Fine grinding and smoothing}. Removes all the major pits and scratches created in rough grinding and further approximates the optical surface.
+\item \textit{Polishing}. Complete removal of small pits and scratches.
+\item \textit{Testing and retoutching}. Examination of the mirror for defects and their correction.
+\end{itemize}
+\end{frame}
 
-How do you make such an imposible smooth surface? By hand, of course.
-
+\begin{frame}
+\frametitle{Surface grinding}
+Both 
 \end{frame}
 
 
 \begin{frame}
 \frametitle{About the author}
-https://atm-workshop.com/foucault.html
+%https://atm-workshop.com/foucault.html
 
-https://www.telescope-optics.net/foucault_test.htm
+%https://www.telescope-optics.net/foucault_test.htm
 \end{frame}
 
 \begin{frame}
