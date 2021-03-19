@@ -140,11 +140,18 @@ How does one make such smooth surface? It turns out it can be done with easily b
 \end{frame}
 
 \begin{frame}
-\frametitle{Mirror grinding}
+\frametitle{Mirror grinding and smoothing}
 \begin{columns}
 \column{0.5\textwidth}
-bla bla
+Mirror grinding and smoothing operations are accomplished with a tool and a sequence of abrasives. The set of abrasives goes from very coarse ($0.1mm$) during initial rough grinding to very fine ($10 \mu m$) on the later stages of smoothing.
+
+The tool must be a disc with similar size to that of the mirror. It can be made of glass or other hard material.
+
+Variations of a W movement are performed between tool and mirror disc while also stepping from position to position arround the mirror.
 \column{0.5\textwidth}
+\begin{figure}
+\includegraphics[scale=0.35]{assets/stroke.pdf}
+\end{figure}
 \begin{figure}
 \includegraphics[scale=0.2]{assets/grinding.jpg}
 \end{figure}
@@ -155,7 +162,9 @@ bla bla
 \frametitle{Mirror polishing}
 \begin{columns}
 \column{0.5\textwidth}
-bla bla
+Mirror polishing is accomplished with a softer substrate applied to the tool's surface (usually optical pitch) and a very fine ($<1 \mu m$) polishing abrasive.
+
+Polishing is performed with a similar set of W movements as used in smoothing.
 \column{0.5\textwidth}
 \begin{figure}
 \includegraphics[scale=0.2]{assets/polishing.jpg}
@@ -165,14 +174,16 @@ bla bla
 
 \begin{frame}
 \frametitle{Mirror testing}
-\begin{columns}
-\column{0.5\textwidth}
-bla bla
-\column{0.5\textwidth}
-\begin{figure}
-\includegraphics[scale=0.2]{assets/polishing.jpg}
-\end{figure}
-\end{columns}
+After having produced a curve of the proper depth and having removed any signs of scratches or pits, it is time to test the mirror's surface.
+
+The purpose of testing is to examine how close to the ideal curve the actual mirror is and to plan how to correct it.
+
+There are several tests that can be used with varying degrees of complexity and information produced.
+\begin{itemize}
+\item \textit{Ronchi test}. Produces mainly qualitative results. Of limited use.
+\item \textit{Foucault test}. Produces quantitative results.
+\item \textit{Interferometry test}. Produces the best quantitative results. Gives a topographical error of the mirror's surface.
+\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -184,6 +195,11 @@ bla bla
 \begin{figure}
 \includegraphics[scale=0.2]{assets/polishing.jpg}
 \end{figure}
+\footnotetext{\url{https://en.wikipedia.org/wiki/Parabolic_reflector}}
+{\url{https://en.wikipedia.org/wiki/Parabolic_reflector}}
+%https://atm-workshop.com/foucault.html
+
+%https://www.telescope-optics.net/foucault_test.htm
 \end{columns}
 \end{frame}
 
@@ -203,9 +219,7 @@ bla bla
 
 \begin{frame}
 \frametitle{About the author}
-%https://atm-workshop.com/foucault.html
 
-%https://www.telescope-optics.net/foucault_test.htm
 \end{frame}
 
 \begin{frame}
