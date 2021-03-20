@@ -181,7 +181,7 @@ The purpose of testing is to examine how close to the ideal curve the actual mir
 There are several tests that can be used with varying degrees of complexity and information produced.
 \begin{itemize}
 \item \textit{Ronchi test}. Produces mainly qualitative results. Of limited use.
-\item \textit{Foucault test}. Produces quantitative results.
+\item \textit{Foucault test}. Produces quantitative results but is not very sensitive to non-figure of revolution defects.
 \item \textit{Interferometry test}. Produces the best quantitative results. Gives a topographical error of the mirror's surface.
 \end{itemize}
 \end{frame}
@@ -190,46 +190,55 @@ There are several tests that can be used with varying degrees of complexity and 
 \frametitle{Foucault test}
 \begin{columns}
 \column{0.5\textwidth}
-The Foucault test...
+The Foucault test is one of the oldest types of test available to the amateur to test their mirror.
 
-%\footnotetext
-%https://atm-workshop.com/foucault.html
-%https://www.telescope-optics.net/foucault_test.htm
+It is the most popular test within the ATM circle. This is due both to its ease of understanding and operation\footnote[frame]{\url{https://atm-workshop.com/foucault.html}}, and also because the tester hardware is easy to build from comonly obtainable materials\footnote[frame]{\url{https://stellafane.org/stellafane-main/tm/atm/test/tester-1.html}}.
 \column{0.5\textwidth}
 \begin{figure}
-\includegraphics[scale=0.35]{assets/Foucault.jpg}
-Foucalt test capture during actual testing of the mirror. 
+\includegraphics[scale=0.3]{assets/Foucault.jpg}
+\caption{Foucalt test capture during actual testing on my mirror. This capture is one of a series of captures taken at a specific offsets from the mirror's radius of curvature.}
 \end{figure}
 \end{columns}
-%{\url{https://en.wikipedia.org/wiki/Parabolic_reflector}}
 \end{frame}
 
 \begin{frame}
 \frametitle{Interferometry test}
 \begin{columns}
 \column{0.5\textwidth}
-bla bla
-%http://rohr.aiax.de/Using%20a%20Bath%20-%20EN.pdf
+Interferometry testing is a much more recent addition to the ATM tool set.
+
+The availability of cheap solid state laser diodes and a few optical components, made possible for a simplified interometer called the Bath Interferometer to be build at home\footnote[frame]{\url{http://rohr.aiax.de/Using a Bath - EN.pdf}}. Coupled with open source software made by the ATM comunity provided for a complete solution to perform interferomety analysis.
 \column{0.5\textwidth}
 \begin{figure}
 \includegraphics[scale=0.3]{assets/bath.jpg}
+\caption{This report shows the actual defects present on my mirror's surface relative to the ideal surface. In this case the mirror shows some astigmatism seen by its potato chip like error shape.}
 \end{figure}
 \end{columns}
 \end{frame}
 
 
 \begin{frame}
-\frametitle{About the author}
+\frametitle{Current state and next steps}
+So far I have only worked on the mirror lens and it has been a very interesting learning experience.
 
+As shown in the previous slide, the mirror is showing some astigmatism defects that need to be resolved. This is the current state.
+
+After that, the next step will be to have it electricaly coated with a very thin aluminium reflective coating. I can't do this myself, so I need to send it over to a specialized facility to do that for me.
+
+When the mirror is done, what remains to be built is the Optical Tube Assembly (OTA). I will build the tube myself, but will buy the remaning components, like the mirror cell, the focuser and the diagonal mirror.
 \end{frame}
 
 \begin{frame}
 \frametitle{About the author}
-My name is Nuno and ...
+My name is Nuno and I am passionate for
+\begin{figure}
+\includegraphics[scale=0.3]{assets/self.jpg}
+\end{figure}
 \end{frame}
 
 \begin{frame}
 \frametitle{The end}
+\centering
 Thank you!
 \end{frame}
 
